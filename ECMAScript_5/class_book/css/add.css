@@ -1,0 +1,57 @@
+.form-wrapper {
+    padding-top: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-field-position {
+    float: left;
+    margin: 0 auto;
+}
+
+.cell-wrapper {
+    clear: both;
+    text-align: right;
+    line-height: 25px;
+}
+
+.cell-wrapper label {
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.cell-wrapper input{
+    padding: 4px 10px;
+    color: #412a2a;
+    font-weight: 500;
+}
+.cell-wrapper select{
+    padding: 4px 10px;
+    color: #412a2a;
+    font-weight: 500;
+    margin-right: 122px;
+    width: 200px;
+}
+
+.cell-wrapper .long-field{
+    width: 300px;
+}
+.cell-wrapper .middle-field{
+    width: 200px;
+    margin-right: 100px;
+}
+.cell-wrapper .short-field{
+    width: 100px;
+    margin-right: 200px;
+}
+
+.button-wrapper {
+    padding-top: 20px;
+}
+
+.button-wrapper button {
+    margin-right: 25px;
+}
+.button-clear{
+    background-color: #eeeeee !important;
+}

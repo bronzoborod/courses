@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add book</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/add.css">
+</head>
+<body>
+
+<div class="form-wrapper">
+    <div class="form-field-position">
+        <form action="">
+            <div class="cell-wrapper">
+                <label for="book-name">Название</label><input type="text" id="book-name" class="long-field">
+            </div>
+            <div class="cell-wrapper">
+                <label for="book-author">Автор</label><input type="text" id="book-author" class="long-field">
+            </div>
+            <div class="cell-wrapper">
+                <label for="book-type">Тип</label>
+                <select name="type[]" id="book-type">
+                    <option selected disabled>Выберите тип романа</option>
+                    <option value="Чебурашка">Роман в стихах</option>
+                    <option value="Крокодил Гена">Философский роман</option>
+                    <option value="Шапокляк">Учебник</option>
+                </select>
+            </div>
+            <div class="cell-wrapper">
+                <label for="book-lan">Язык</label><input type="text" id="book-lan" class="long-field">
+            </div>
+            <div class="cell-wrapper">
+                <label for="book-country">Страна</label><input type="text" id="book-country" class="middle-field">
+            </div>
+            <div class="cell-wrapper">
+                <label for="book-year">Год</label><input type="text" id="book-year" class="short-field">
+            </div>
+        </form>
+        <div class="button-wrapper">
+            <button>Сохранить</button>
+            <button class="button-clear">Очистить</button>
+        </div>
+    </div>
+</div>
+
+<script src="../js/common.js"></script>
+</body>
+</html>

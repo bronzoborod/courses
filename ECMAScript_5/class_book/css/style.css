@@ -1,0 +1,51 @@
+body{
+    background-color: #eeeeee;
+    font-family: "Comic Sans MS";
+}
+
+.content-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button-wrapper button{
+    font-size: 16px;
+    background-color: #886d6d;
+    border: 1px  solid #412a2a;
+    border-radius: 2px;
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+.table-content{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.book-info{
+    border-collapse: collapse;
+}
+.book-info th{
+    text-transform: uppercase;
+}
+.book-info td,th{
+    font-weight: 400;
+    min-width: 100px;
+    text-align: center;
+    text-transform: initial;
+    border: 1px solid #886d6d;
+    padding: 4px 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 4px 12px;
+}
+
+.class-delete{
+    color: red;
+}
+
+.button-wrapper{
+    padding-top: 50px;
+}
